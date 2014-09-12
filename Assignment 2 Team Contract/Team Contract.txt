@@ -1,0 +1,36 @@
+Contact information:
+	Dan Martinez
+
+	Chris Wilkins
+		email -> wilkinscs1@gmail.com
+
+	Cody Curry
+		email -> cocurry1@gmail.com
+		cell  -> (509) 205-7501
+
+	Michael Degan
+		email -> plithnar@gmail.com
+		cell  -> (509) 554-0824
+		skype -> kageokami315
+
+Meeting Date and time
+	Monday (possibly Wednesday if needed)  3:00 PM - 4:30 PM
+	Tuesday (possibly Thursday if needed) 12:00 PM - 2:00 PM
+
+Team Member Roles
+	Dan Martinez  -
+
+	Chris Wilkins - Inspector
+
+	Cody Curry    - Author (Initially
+
+	Michael Degan - Recorder
+
+Special Skills
+	Dan Martinez  - Documentation development
+
+	Chris Wilkins - Business Logic Design
+
+	Cody Curry    - Database Design Experience
+
+	Michael Degan - Database Design Experience, Documentation development
