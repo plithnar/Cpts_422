@@ -1,0 +1,38 @@
+- Flow of inspection: start at section 4 and work downwards, then return to the top of the documetn for examining the background information, skipping the introduction portion of the document.
+
+- All instances of "turing" in the document should be "Turing" due to proper name
+
+NOTES:
+ - input data files -> input string file and tm definition file
+ - output data files -> input string file
+
+ - Replace Turing machine or Turing machine application with TM and TMA respectively (?)
+
+ - Add "as shown in figure 2" (example) for 
+
+ - description section is "a" text block
+
+ - Add in a section to have all the reserved characters in a single place, rather than interspersed through the document.
+
+ - Remove input string file full/relative path stuff
+ - Add in "what happens" if input string file isn't already present
+
+ - Reword "characters" in input/tape alphabet to prevent ambiguity
+
+ - Add "Invalid if initial state isn't a member of states" requirement
+
+ - Add "Invalid blank character if is member of input alpha" requirement
+
+ - "string item" in blank character should be character instead 
+
+ - Final state section : change "should be" to "is, and if not invalid file"
+
+ - "Below is well formed followed by mal formed"
+
+ - Add "to the console" after reporting of if strings are malformed
+
+ - label main subsections with roman numerals (lower case), labels next sections alphabetically
+
+ - Reorder section 5; put command line after configuration section, prior to individual commands
+
+ - Accepts the first command line arguement, ignoring all others

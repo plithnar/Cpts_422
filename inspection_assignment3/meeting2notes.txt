@@ -1,0 +1,17 @@
+ - Need consistency in how commands are entered; "typing <key command> and pressing enter on the keyboard" is the popular choice
+
+ - Help command -> Add in line at the end that the user is immediately taken back to the command prompt without further input when the message is displayed to show this is the expected behaviour
+
+ - Delete/Run command -> references to the input string list should cause errors on integer input of less than "or equal to" 0 and non-integer input 
+
+ - Set command -> change wording to be consistent with Delete/run command qualification; should cause errors on integer input of less than "or equal to" 0 and non-integer input
+
+ - Truncate command -> should have no change when user provides integer input of less than "or equal to" 0 and non-integer input
+
+ - Exit command -> if the .str file does not exist, the application will create the input string file with the format specified in section 4 (where the input string file is described)
+
+ -DESIGN DOCUMENT
+
+ - originalInitialString -> needs to be reworded; initialString should not change until the user selects the quit command or run completes (user uses the run method while operating attribute is set to false)
+
+ - PerformTransitions method -> needs to add in a requirement that if it is unable to perform the maximum number of transitions on the string, it will reject the string. Needs to add in a requirement that if it reaches the end of the input string and is in one of the final states of the TM, it will accept the string

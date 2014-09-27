@@ -1,0 +1,5 @@
+No notes to take on the documents; meeting involved finalization of the inspection documentation and getting everyone set up on bugzilla to be able to log issues.
+
+ - Dan volunteered to create the time log for the three meetings and create the template for the team evaluation
+
+ - Michael logging initial bugs and informing instructor of any issues with bugzilla set up (no product, etc)
