@@ -225,7 +225,7 @@ int main(int argc, char* argv[])
 					{
 						index = atoi(changeNum.c_str());
 						index--;
-						if((index >= (int)inputList.size()) || (index < 0))
+						if((index > (int)inputList.size()) || (index < 0))
 						{
 							cout<<"\nError: Integer needs to be between 1 and "<<inputList.size()<<endl;
 						}
