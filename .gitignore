@@ -1,6 +1,9 @@
 #Open office save locks
 .~lock*
 
+#Object files from program compilation
+*.o
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
