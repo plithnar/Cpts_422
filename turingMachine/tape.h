@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Tape
+class __declspec(dllexport) Tape
 {
 private:
 	string m_cells;

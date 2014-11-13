@@ -121,3 +121,4 @@ bool Tape::IsFirstCell() const
 	}
 	return false;
 }
+

@@ -10,7 +10,6 @@ using namespace std;
 
 void TransitionFunction::Load(ifstream& definition, bool& valid)
 {
-	//TO BE IMPLEMENTED LATER
 }
 
 void TransitionFunction::Add(Transition t)
@@ -20,7 +19,6 @@ void TransitionFunction::Add(Transition t)
 
 void TransitionFunction::View(void) const
 {
-	//TO BE IMPLEMENTED
 	int i = 0;
 	for(i = 0; i < (int)transitions.size(); i++)
 	{
@@ -72,13 +70,11 @@ bool TransitionFunction::IsDefinedTransition(string source, char read,
 		}
 	}
 
-	//TO BE IMPLEMENTED
 	return false;
 }
 
 bool TransitionFunction::IsSourceState(string state) const
 {
-	// TO BE IMPLEMENTED
 	int i = 0;
 	for(i = 0; i < (int)transitions.size(); i++)
 	{

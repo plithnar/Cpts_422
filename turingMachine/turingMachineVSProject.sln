@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "turingMachineVSProject", "turingMachineVSProject.vcxproj", "{BA5E9507-BB94-4617-AEB6-C726FDA3D15B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tmTester", "tmTester\tmTester.vcxproj", "{CE418A1D-7AC7-450A-8DDD-5A018A13E9C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA5E9507-BB94-4617-AEB6-C726FDA3D15B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BA5E9507-BB94-4617-AEB6-C726FDA3D15B}.Debug|Win32.Build.0 = Debug|Win32
+		{BA5E9507-BB94-4617-AEB6-C726FDA3D15B}.Release|Win32.ActiveCfg = Release|Win32
+		{BA5E9507-BB94-4617-AEB6-C726FDA3D15B}.Release|Win32.Build.0 = Release|Win32
+		{CE418A1D-7AC7-450A-8DDD-5A018A13E9C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE418A1D-7AC7-450A-8DDD-5A018A13E9C3}.Debug|Win32.Build.0 = Debug|Win32
+		{CE418A1D-7AC7-450A-8DDD-5A018A13E9C3}.Release|Win32.ActiveCfg = Release|Win32
+		{CE418A1D-7AC7-450A-8DDD-5A018A13E9C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
