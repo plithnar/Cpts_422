@@ -1,12 +1,18 @@
-﻿Build started 11/12/2014 7:00:01 PM.
-     1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+﻿Build started 11/13/2014 11:26:40 PM.
+     1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\tmTester.pch.codeanalysis" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /FC /errorReport:prompt   /analyze:quiet stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\tmTester.pch.codeanalysis" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /FC /errorReport:prompt   /analyze:quiet tapeTester.cpp
+         tapeTester.cpp
+     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.dll" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" crash.obj finalStates.obj inputAlphabet.obj main.obj state.obj tape.obj tapeAlphabet.obj transition.obj transitionFunction.obj turingMachine.obj visible.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
-         Debug\unittest1.obj
+         Debug\tapeTester.obj
             Creating library C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.lib and object C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.exp
          tmTester.vcxproj -> C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.dll
-     1>Done Building Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.57
+Time Elapsed 00:00:11.25

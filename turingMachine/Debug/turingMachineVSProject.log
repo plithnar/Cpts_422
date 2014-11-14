@@ -1,7 +1,7 @@
-﻿Build started 11/12/2014 6:43:23 PM.
+﻿Build started 11/13/2014 11:26:34 PM.
      1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt crash.cpp finalStates.cpp inputAlphabet.cpp main.cpp state.cpp tape.cpp tapeAlphabet.cpp transition.cpp transitionFunction.cpp turingMachine.cpp visible.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt crash.cpp finalStates.cpp inputAlphabet.cpp main.cpp state.cpp tape.cpp tapeAlphabet.cpp transition.cpp transitionFunction.cpp turingMachine.cpp visible.cpp
          visible.cpp
          turingMachine.cpp
      1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
@@ -18,7 +18,7 @@
          crash.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib" /MACHINE:X86 Debug\crash.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib" /MACHINE:X86 Debug\crash.obj
          Debug\finalStates.obj
          Debug\inputAlphabet.obj
          Debug\main.obj
@@ -35,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.89
+Time Elapsed 00:00:06.11

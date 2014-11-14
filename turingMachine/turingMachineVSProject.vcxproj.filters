@@ -86,6 +86,12 @@
     <ClInclude Include="visible.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tmTester\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tmTester\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="fullValidTm.def">

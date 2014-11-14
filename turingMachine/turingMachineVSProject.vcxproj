@@ -52,10 +52,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../Debug;$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -97,6 +99,8 @@
     <ClInclude Include="stringPointer.h" />
     <ClInclude Include="tape.h" />
     <ClInclude Include="tapeAlphabet.h" />
+    <ClInclude Include="tmTester\stdafx.h" />
+    <ClInclude Include="tmTester\targetver.h" />
     <ClInclude Include="transition.h" />
     <ClInclude Include="transitionFunction.h" />
     <ClInclude Include="turingMachine.h" />
