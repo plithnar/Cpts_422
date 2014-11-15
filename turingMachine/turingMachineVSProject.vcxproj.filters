@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="TestingFolder">
+      <UniqueIdentifier>{8c9f9bc0-3e0f-45c1-836c-b690a84734ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="crash.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="visible.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tmTester\tapeTester.cpp">
+      <Filter>TestingFolder</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -106,5 +112,6 @@
     <None Include="tm">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace tmTester
 {		
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(TapeTester)
 	{
 	public:
 		

@@ -21,5 +21,14 @@
     <ClCompile Include="tapeTester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="transitionTester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alphabetTester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

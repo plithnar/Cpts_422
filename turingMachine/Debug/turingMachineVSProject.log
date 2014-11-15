@@ -1,12 +1,14 @@
-﻿Build started 11/13/2014 11:26:34 PM.
+﻿Build started 11/15/2014 10:34:39 AM.
      1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt crash.cpp finalStates.cpp inputAlphabet.cpp main.cpp state.cpp tape.cpp tapeAlphabet.cpp transition.cpp transitionFunction.cpp turingMachine.cpp visible.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt crash.cpp finalStates.cpp inputAlphabet.cpp main.cpp state.cpp tape.cpp tapeAlphabet.cpp tmTester\tapeTester.cpp transition.cpp transitionFunction.cpp turingMachine.cpp visible.cpp
          visible.cpp
          turingMachine.cpp
      1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
          transitionFunction.cpp
          transition.cpp
+         tapeTester.cpp
+     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
          tapeAlphabet.cpp
          tape.cpp
      1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
@@ -25,6 +27,7 @@
          Debug\state.obj
          Debug\tape.obj
          Debug\tapeAlphabet.obj
+         Debug\tapeTester.obj
          Debug\transition.obj
          Debug\transitionFunction.obj
          Debug\turingMachine.obj
@@ -35,4 +38,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.11
+Time Elapsed 00:00:07.59

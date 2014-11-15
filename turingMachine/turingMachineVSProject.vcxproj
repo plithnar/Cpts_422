@@ -85,6 +85,7 @@
     <ClCompile Include="state.cpp" />
     <ClCompile Include="tape.cpp" />
     <ClCompile Include="tapeAlphabet.cpp" />
+    <ClCompile Include="tmTester\tapeTester.cpp" />
     <ClCompile Include="transition.cpp" />
     <ClCompile Include="transitionFunction.cpp" />
     <ClCompile Include="turingMachine.cpp" />
@@ -110,6 +111,7 @@
     <None Include="fullValidTm.def" />
     <None Include="fullValidTm.str" />
     <None Include="makefile" />
+    <None Include="packages.config" />
     <None Include="tm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

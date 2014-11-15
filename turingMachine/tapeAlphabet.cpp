@@ -69,3 +69,8 @@ void TapeAlphabet::View() const
 		}
 	}
 }
+
+void TapeAlphabet::Alphabet(vector<char> alpha)
+{
+	m_alphabet = alpha;
+}

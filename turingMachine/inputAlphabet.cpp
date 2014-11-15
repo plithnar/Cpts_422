@@ -69,3 +69,8 @@ void InputAlphabet::View() const
 		}
 	}
 }
+
+void InputAlphabet::Alphabet(vector<char> alpha)
+{
+	m_alphabet = alpha;
+}

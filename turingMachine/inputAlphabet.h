@@ -19,5 +19,6 @@ public:
 	void Load(ifstream &definition, bool &valid);
 	int Size() const;
 	void View() const;
+	void Alphabet(vector<char> alpha);
 };
 #endif
