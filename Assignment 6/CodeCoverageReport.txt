@@ -1,0 +1,13 @@
+-		Christopher Wilkins_WIN-I9A6169P9HQ 2014-11-17 20_23_31.coverage	932	45.75 %	1105	54.25 %
+-		tmtester.dll	932	45.75 %	1105	54.25 %
+-		Global Classes	926	56.46 %	714	43.54 %
++		Crash	5	100.00 %	0	0.00 %
++		FinalState	41	100.00 %	0	0.00 %
++		Global Functions	599	100.00 %	0	0.00 %
++		InputAlphabet	13	16.25 %	67	83.75 %
++		State	20	48.78 %	21	51.22 %
++		Tape	15	13.51 %	96	86.49 %
++		TapeAlphabet	17	21.25 %	63	78.75 %
++		Transition	0	0.00 %	15	100.00 %
++		TransitionFunction	34	32.08 %	72	67.92 %
++		TuringMachine	182	32.38 %	380	67.62 %
