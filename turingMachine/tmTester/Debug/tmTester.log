@@ -1,18 +1,20 @@
-﻿Build started 11/15/2014 3:17:21 PM.
-     1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/17/2014 8:22:40 PM.
+     1>Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\tmTester.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /FC /errorReport:prompt   /analyze:quiet turingMachineTester.cpp
-         turingMachineTester.cpp
-     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\tmTester.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /FC /errorReport:prompt   /analyze:quiet tmDefTester.cpp
+         tmDefTester.cpp
+     1>\\vmware-host\shared folders\documents\projects\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.dll" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" crash.obj finalStates.obj inputAlphabet.obj main.obj state.obj tape.obj tapeAlphabet.obj transition.obj transitionFunction.obj turingMachine.obj visible.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.lib" /MACHINE:X86 /DLL Debug\alphabetTester.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.dll" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" crash.obj finalStates.obj inputAlphabet.obj main.obj state.obj tape.obj tapeAlphabet.obj transition.obj transitionFunction.obj turingMachine.obj visible.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.lib" /MACHINE:X86 /DLL Debug\alphabetTester.obj
+         Debug\tmDefTester.obj
          Debug\transitionTester.obj
          Debug\stdafx.obj
          Debug\tapeTester.obj
          Debug\turingMachineTester.obj
-         tmTester.vcxproj -> C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\tmTester.dll
-     1>Done Building Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" (Build target(s)).
+            Creating library \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.lib and object \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.exp
+         tmTester.vcxproj -> \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\tmTester.dll
+     1>Done Building Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\tmTester\tmTester.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.19
+Time Elapsed 00:00:09.79

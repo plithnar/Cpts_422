@@ -1,0 +1,5 @@
+STATES: s0 s> s2 s3 s4
+
+
+INPUT_ALPHABET: a b
+

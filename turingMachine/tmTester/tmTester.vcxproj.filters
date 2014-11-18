@@ -30,6 +30,9 @@
     <ClCompile Include="turingMachineTester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tmDefTester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

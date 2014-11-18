@@ -1,41 +1,9 @@
-﻿Build started 11/15/2014 10:34:39 AM.
-     1>Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" on node 2 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt crash.cpp finalStates.cpp inputAlphabet.cpp main.cpp state.cpp tape.cpp tapeAlphabet.cpp tmTester\tapeTester.cpp transition.cpp transitionFunction.cpp turingMachine.cpp visible.cpp
-         visible.cpp
-         turingMachine.cpp
-     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
-         transitionFunction.cpp
-         transition.cpp
-         tapeTester.cpp
-     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
-         tapeAlphabet.cpp
-         tape.cpp
-     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
-         state.cpp
-         main.cpp
-     1>c:\users\michael\documents\github\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
-         inputAlphabet.cpp
-         finalStates.cpp
-         crash.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib" /MACHINE:X86 Debug\crash.obj
-         Debug\finalStates.obj
-         Debug\inputAlphabet.obj
-         Debug\main.obj
-         Debug\state.obj
-         Debug\tape.obj
-         Debug\tapeAlphabet.obj
-         Debug\tapeTester.obj
-         Debug\transition.obj
-         Debug\transitionFunction.obj
-         Debug\turingMachine.obj
-         Debug\visible.obj
-            Creating library C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib and object C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.exp
-         turingMachineVSProject.vcxproj -> C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe
-     1>Done Building Project "C:\Users\Michael\Documents\GitHub\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" (Rebuild target(s)).
+﻿Build started 11/16/2014 11:36:40 PM.
+     1>Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         turingMachineVSProject.vcxproj -> \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe
+     1>Done Building Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:07.59
+Time Elapsed 00:00:03.67
