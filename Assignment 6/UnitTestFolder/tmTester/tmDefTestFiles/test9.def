@@ -1,0 +1,5 @@
+INPUT_ALPHABET: > b
+
+
+TAPE_ALPHABET: a b X Y -
+
