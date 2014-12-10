@@ -1,9 +1,27 @@
-﻿Build started 11/16/2014 11:36:40 PM.
+﻿Build started 12/9/2014 6:52:06 PM.
      1>Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>\\vmware-host\shared folders\documents\projects\cpts_422\turingmachine\tape.h(13): warning C4251: 'Tape::m_cells' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Tape'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:../Debug /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib" /MACHINE:X86 Debug\crash.obj
+         Debug\finalStates.obj
+         Debug\inputAlphabet.obj
+         Debug\main.obj
+         Debug\state.obj
+         Debug\tape.obj
+         Debug\tapeAlphabet.obj
+         Debug\tapeTester.obj
+         Debug\transition.obj
+         Debug\transitionFunction.obj
+         Debug\turingMachine.obj
+         Debug\visible.obj
+         LINK : \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe not found or not built by the last incremental link; performing full link
+            Creating library \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.lib and object \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.exp
          turingMachineVSProject.vcxproj -> \\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\Debug\turingMachineVSProject.exe
      1>Done Building Project "\\vmware-host\Shared Folders\Documents\Projects\Cpts_422\turingMachine\turingMachineVSProject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.67
+Time Elapsed 00:00:05.17

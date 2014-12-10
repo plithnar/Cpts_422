@@ -164,6 +164,10 @@ int main(int argc, char* argv[])
 				}
 			}
 		}
+		else if (userInput == "C")
+		{
+			inputList.clear();
+		}
 		else if(userInput == "Q")
 		{
 			if(machine.IsOperating())
